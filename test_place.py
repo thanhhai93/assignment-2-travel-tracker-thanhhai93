@@ -18,8 +18,16 @@ def run_tests():
     print("Test initial-value place:")
     new_place = Place("Malagar", "Spain", 1, False)
     # TODO: Write tests to show this initialisation works
+    print ("marking visited place")
+    new_place = Place ("Malage", "Spain", 1, "n")
+    print (new_place)
 
     # TODO: Add more tests, as appropriate, for each method
+    print(new_place)
+    print (new_place.check_visited())
+    "check already visited this place or not "
+    print(new_place.is_important())
+    "add important place"
 
 
 run_tests()
