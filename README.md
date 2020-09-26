@@ -8,7 +8,7 @@ _Note that to get high marks for this, your reflection should match the "exempla
 
 
 ## 1. How long did the entire project (assignment 2) take you?
-from i know the assignment 2, i spend 1hour to 1,5hour per day. Total about 20 hours.
+from i know the assignment 2, i spent 1hour to 1,5hour per day. Total about 20 hours.
 Note: You may like to use the WakaTime plugin, which tracks exactly how long you spend in code. See http://wakatime.com (but note that the free version only has a 7-day history)
 
 ## 2. What are you most satisfied with?
@@ -24,7 +24,7 @@ worked well in my development is from the long code and i can write the short co
 In the next time, I will make a detailed plan and based on the plan I can write the program without error as before.
 
 ## 6. Describe what learning resources you used and how you used them.
-The learning resources I use are powerpoints slide, and python practice exercises in class and the internet, for example kivy, etc ...
+The learning resources I used are powerpoints slide, and python practice exercises in class and the internet, for example kivy, etc ...
 
 ## 7. Describe the main challenges or obstacles you faced and how you overcame them.
 The challenge of this assignment is how to run the program perfectly.
