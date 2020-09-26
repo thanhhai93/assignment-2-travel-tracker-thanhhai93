@@ -1,8 +1,10 @@
-"""..."""
-# Copy your first assignment to this file, then update it to use Place class
-# Optionally, you may also use PlaceCollection class
+"""
+Name: NGUYEN THANH HAI
+Date: 27/09/2020
+Brief Project Description:
+GitHub URL:https://github.com/JCUS-CP1404/assignment-2-travel-tracker-thanhhai93
+"""
 
-from place import Place
 from place import Place
 import csv
 
