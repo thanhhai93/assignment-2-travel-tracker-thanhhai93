@@ -8,7 +8,7 @@ _Note that to get high marks for this, your reflection should match the "exempla
 
 
 ## 1. How long did the entire project (assignment 2) take you?
-from i know the assignment 2, i spend 1hour to 1,5hour per day.
+from i know the assignment 2, i spend 1hour to 1,5hour per day. Total about 20 hours.
 Note: You may like to use the WakaTime plugin, which tracks exactly how long you spend in code. See http://wakatime.com (but note that the free version only has a 7-day history)
 
 ## 2. What are you most satisfied with?
