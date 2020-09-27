@@ -1,28 +1,65 @@
-# Create your Kivy layout in the kv language here
+# TODO: Create your Kivy layout in the kv language here
+
 BoxLayout:
+    orientation: 'horizontal'
+    BoxLayout:
+        orientation:'vertical'
+        size_hint_x: 0.5
+        width:350
+        Label:
+            text: 'Sort By'
+        Spinner:
+            id:spinners
+            text: app.current_sort
+            values: app.sort_options
+            on_text: app.sorted(self.text)
+        Widget:
+            id:separator
+            size_hint_y: 0.5
+            height: 8
 
-"""(Incomplete) Tests for Place class."""
-from place import Place
+        Label:
+            text: 'Add New Place'
+        Label:
+            text:'Name'
+        TextInput:
+            id:city_name
+        Label:
+            text:'Country'
+        TextInput:
+            id:country_name
+        Label:
+            text:'Priority'
+        TextInput:
+            id:priority_num
+        Widget:
+            id:separator
+            height: 6
+
+        Button:
+            id:show_place
+            text:'Add Place'
+            on_press: app.add_places()
+        Button:
+            text:'Clear'
+            on_press: app.clear_text()
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            id:visit
+            text: ""
+            size_hint_y: 0.1
+        BoxLayout:
+            orientation: 'vertical'
+            id: entries_box
+        Label:
+            id:status
+            text:""
+            size_hint_y: None
+            height:50
 
 
-def run_tests():
-    """Test Place class."""
-
-    # Test empty place (defaults)
-    print("Test empty place:")
-    default_place = Place()
-    print(default_place)
-    assert default_place.name == ""
-    assert default_place.country == ""
-    assert default_place.priority == 0
-    assert not default_place.is_visited
-
-    # Test initial-value place
-    print("Test initial-value place:")
-    new_place = Place("Malagar", "Spain", 1, False)
-    # TODO: Write tests to show this initialisation works
-
-    # TODO: Add more tests, as appropriate, for each method
-
-
-run_tests()
+<TextInput>
+    text_size: self.size
+    multiline: False
+    write_tab: False
