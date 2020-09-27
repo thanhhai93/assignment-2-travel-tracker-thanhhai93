@@ -29,11 +29,11 @@ def run_tests():
 
     # Test sorting country
     print("Test sorting - country:")
-    sorted_list_2 = place_collection.sort_place("country", descending=True)
+    sorted_list_2 = place_collection.sort_place("country")
     print(place_collection.format_data(sorted_list_2))
     # test sorting name
     print("Test sorting - name:")
-    sorted_list_3 = place_collection.sort_place("name", descending=False)
+    sorted_list_3 = place_collection.sort_place("name")
     print(place_collection.format_data(sorted_list_3))
  #  Test saving places (check CSV file manually to see results)
     print("Test saving places:")
