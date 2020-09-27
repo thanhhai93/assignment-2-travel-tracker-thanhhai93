@@ -9,8 +9,10 @@ BoxLayout:
         Label:
             text: 'Sort By'
         Spinner:
+            # Spinner list
             id:spinners
             text: app.current_sort
+            # Default value
             values: app.sort_options
             on_text: app.sorted(self.text)
         Widget:
@@ -47,14 +49,12 @@ BoxLayout:
         orientation: 'vertical'
         Label:
             id:visit
-            text: ""
             size_hint_y: 0.1
         BoxLayout:
             orientation: 'vertical'
             id: entries_box
         Label:
             id:status
-            text:""
             size_hint_y: None
             height:50
 
