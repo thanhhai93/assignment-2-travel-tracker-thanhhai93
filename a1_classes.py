@@ -2,7 +2,7 @@
 Name: NGUYEN THANH HAI
 Date: 27/09/2020
 Brief Project Description:
-GitHub URL:https://github.com/JCUS-CP1404/assignment-2-travel-tracker-thanhhai93
+GitHub URL:https://github.com/JCUS-CP1404/assignment-1-travel-tracker-thanhhai93/blob/master/assignment1.py
 """
 
 from place import Place
